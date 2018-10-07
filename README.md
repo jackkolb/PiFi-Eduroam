@@ -6,7 +6,7 @@ I made this after spending far too long searching and seeing this question come 
  on numerous online threads... hopefully this helps you out :)
 
 Example output:
-'''
+```
 [~] ./pifi.sh
 -- PiFi-Eduroam --
 Connects your Raspberry Pi to eduroam!
@@ -16,6 +16,5 @@ Eduroam Password:
 
 Generating network entry...
 Complete! Reboot or reset wpa_supplicant
-'''
-
+```
 
