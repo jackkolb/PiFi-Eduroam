@@ -12,7 +12,7 @@ echo 'Connects your Raspberry Pi to eduroam!'
 echo ''
 
 read -p 'Eduroam Username (id@domain.edu): ' USERNAME
-read -sp 'Eduroam Password: ' PASSWORD
+read -p 'Eduroam Password: ' PASSWORD
 
 echo ''
 echo ''
