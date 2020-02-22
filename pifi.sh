@@ -1,4 +1,4 @@
-#/usr/bin/sh
+#/usr/bin/bash
 
 # Created by Jack Kolb in 2018
 
@@ -12,7 +12,7 @@ echo 'Connects your Raspberry Pi to eduroam!'
 echo ''
 
 read -p 'Eduroam Username (id@domain.edu): ' USERNAME
-read -p 'Eduroam Password: ' -s PASSWORD
+read -rsp 'Eduroam Password: ' PASSWORD
 
 echo ''
 echo ''
