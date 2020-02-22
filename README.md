@@ -24,12 +24,12 @@ In effect, the script adds the following entry to your wpa_supplicant.conf:
 network={
   ssid="eduroam"
   scan_ssid=1
-	 key_mgmt=WPA-EAP
- 	group=CCMP TKIP
-	 eap=PEAP
- 	identity="<USERNAME>"
-	 password="<PASSWORD>"
- 	phase1="peapver=0"
-	 phase2="MSCHAPv2"
+  key_mgmt=WPA-EAP
+  group=CCMP TKIP
+  eap=PEAP
+  identity="<USERNAME>"
+  password="<PASSWORD>"
+  phase1="peapver=0"
+  phase2="MSCHAPv2"
 }
 ```
